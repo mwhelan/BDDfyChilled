@@ -35,7 +35,7 @@ namespace BDDfyChilled
             Result.Should().NotBeNull();
         }
 
-        public void AndThen_model_is_the_existing_custmoer()
+        public void AndThen_model_is_the_existing_customer()
         {
             Result.Model.Should().Be(The<Customer>());
         }
